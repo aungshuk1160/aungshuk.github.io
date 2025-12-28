@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* --- 1. VISUAL STYLE (CSS) --- */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            background: white;
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        h2 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .project {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .btn {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .btn:hover { background: #2980b9; }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Creative Developer | Designer | Problem Solver</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a passionate creator focused on building great digital experiences. I specialize in turning complex problems into simple, beautiful solutions.</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Work</h2>
+            
+            <div class="project">
+                <h3>Project Title 1</h3>
+                <p>A brief description of what this project does. Mention the tech stack used (e.g., Python, React, Excel).</p>
+                <a href="#" class="btn">View Code</a>
+            </div>
+
+            <div class="project">
+                <h3>Project Title 2</h3>
+                <p>Another amazing project. Explain your role and the outcome achieved.</p>
+                <a href="#" class="btn">View Design</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Interested in working together? Reach out!</p>
+            <p><strong>Email:</strong> your.email@example.com</p>
+            <p><strong>LinkedIn:</strong> linkedin.com/in/yourname</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. Built & Hosted for Free.</p>
+    </footer>
+
+</body>
+</html>
