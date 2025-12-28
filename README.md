@@ -75,7 +75,7 @@
 </head>
 <body>
 
-    <header>
+ <header>
         <div class="container">
             <h1>Your Name</h1>
             <p>Creative Developer | Designer | Problem Solver</p>
@@ -89,41 +89,40 @@
         </div>
     </header>
 
-    <div class="container">
+ <div class="container">
         
-        <section id="about">
+  <section id="about">
             <h2>About Me</h2>
             <p>Hello! I am a passionate creator focused on building great digital experiences. I specialize in turning complex problems into simple, beautiful solutions.</p>
         </section>
 
-        <section id="projects">
+<section id="projects">
             <h2>My Work</h2>
             
-            <div class="project">
+  <div class="project">
                 <h3>Project Title 1</h3>
                 <p>A brief description of what this project does. Mention the tech stack used (e.g., Python, React, Excel).</p>
                 <a href="#" class="btn">View Code</a>
             </div>
 
-            <div class="project">
+<div class="project">
                 <h3>Project Title 2</h3>
                 <p>Another amazing project. Explain your role and the outcome achieved.</p>
                 <a href="#" class="btn">View Design</a>
             </div>
         </section>
 
-        <section id="contact">
+<section id="contact">
             <h2>Contact Me</h2>
             <p>Interested in working together? Reach out!</p>
             <p><strong>Email:</strong> your.email@example.com</p>
             <p><strong>LinkedIn:</strong> linkedin.com/in/yourname</p>
         </section>
 
-    </div>
+</div>
 
-    <footer>
+ <footer>
         <p>&copy; 2024 Your Name. Built & Hosted for Free.</p>
     </footer>
-
 </body>
 </html>
