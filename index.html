@@ -104,11 +104,11 @@
         <p>Location: Bangladesh</p>
         <p>GitHub: <a href="https://github.com/aungshuk1160" target="_blank">github.com/aungshuk1160</a></p>
       </div>
-      <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea rows="5" placeholder="Your Message"></textarea>
-        <button class="btn">Send Message</button>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
       </form>
     </div>
   </div>
