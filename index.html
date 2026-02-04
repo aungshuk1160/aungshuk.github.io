@@ -105,10 +105,19 @@
         <p>GitHub: <a href="https://github.com/aungshuk1160" target="_blank">github.com/aungshuk1160</a></p>
       </div>
       <form action="https://formspree.io/f/mnjzeorq" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-        <button class="btn" type="submit">Send Message</button>
+        <label>
+          Your name:
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Your email:
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Your message:
+          <textarea name="message" required></textarea>
+        </label>
+        <button type="submit">Send Message</button>
       </form>
     </div>
   </div>
