@@ -8,84 +8,168 @@
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-  <div class="container">
-    <nav>
-      <div class="logo">Aungshuk.</div>
-      <div class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Aungshuk.</div>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
 
-    <div class="hero" id="home">
-      <div>
-        <h1>Hi, I'm <span>Aungshuk</span><br>Software Engineer & Researcher</h1>
-        <p>
-          I build scalable software systems, research usability of emerging
-          technologies, and design intuitive digital experiences.
-        </p>
-        <a class="btn" href="#projects">View My Work</a>
-      </div>
-    </div>
-  </div>
-</header>
+      <div class="hero" id="home">
+        <div>
+          <h1>
+            Hi, I'm <span>Aungshuk</span><br />
+            Software Engineer & Researcher
+          </h1>
+          <p>
+            I build scalable software systems, research usability of emerging
+            technologies, and design intuitive digital experiences. Passionate
+            about web development, security, and usability engineering.
+          </p>
+          <a class="btn" href="#projects">View My Work</a>
+        </div>
 
-<section id="projects">
-  <div class="container">
-    <div class="section-title">
-      <h2>Selected Projects</h2>
-      <p>Some of my academic & development works</p>
-    </div>
-
-    <div class="projects">
-      <div class="project-card">
-        <h3>USSD Simulation Platform</h3>
-        <p>
-          Flask-based USSD simulator for academic research and prototyping.
-        </p>
-        <span class="arrow">→</span>
-      </div>
-
-      <a href="horton-ruiton.html" target="_blank" class="project-card active">
-        <h3>HORTON RUITON Poribohonn</h3>
-        <p>
-          Transportation Management System developed as a Data Management
-          course project with real-world entity relationships.
-        </p>
-        <span class="learn">Learn more →</span>
-      </a>
-
-      <div class="project-card">
-        <h3>SSI on Feature Phones</h3>
-        <p>
-          Self-sovereign identity system using USSD and invitation codes.
-        </p>
-        <span class="arrow">→</span>
-      </div>
-
-      <div class="project-card">
-        <h3>File System Checker</h3>
-        <p>
-          Linux-based file system consistency and recovery tool written in C.
-        </p>
-        <span class="arrow">→</span>
+        <div class="hero-img">
+          <img src="img/Formal_pic_Aingshuk.jpg" alt="Aungshuk" />
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </header>
 
-<footer>
-  <p>© 2026 Aungshuk — All Rights Reserved</p>
-</footer>
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-title">
+        <h2>My Core Skills</h2>
+        <p>Tools & technologies I work with</p>
+      </div>
+
+      <div class="skills">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, React, Tailwind</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <p>Node.js, Flask, REST APIs, MySQL</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Research</h3>
+          <p>Usability Testing, SSI, Blockchain Systems</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-title">
+        <h2>Selected Projects</h2>
+        <p>Some of my recent academic & development works</p>
+      </div>
+
+      <div class="projects">
+
+        <div class="project">
+          <img src="img/project1.jpg" alt="USSD Simulation Platform" />
+          <div>
+            <h3>USSD Simulation Platform</h3>
+            <p>
+              Flask-based USSD simulator for academic research and prototyping.
+            </p>
+          </div>
+        </div>
+
+        <a href="horton-ruiton.html" target="_blank" class="project">
+          <div>
+            <h3>HORTON RUITON Poribohonn</h3>
+            <p>
+              Transportation Management System developed as a Data Management
+              course project. Focused on database design, normalization, and
+              real-world entity relationships.
+            </p>
+          </div>
+        </a>
+
+        <div class="project">
+          <img src="img/project2.jpg" alt="SSI on Feature Phones" />
+          <div>
+            <h3>SSI on Feature Phones</h3>
+            <p>
+              Research-driven identity system using USSD & invitation codes.
+            </p>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="img/project3.jpg" alt="File System Checker" />
+          <div>
+            <h3>File System Checker</h3>
+            <p>
+              Linux-based consistency and recovery system written in C.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Let's Work Together</h2>
+        <p>Have an idea or project? Let's talk.</p>
+      </div>
+
+      <div class="contact">
+        <div>
+          <h3>Contact Info</h3>
+          <p>
+            Email:
+            <a href="mailto:saminaungshuk1160@gmail.com">
+              saminaungshuk1160@gmail.com
+            </a>
+          </p>
+          <p>Location: Bangladesh</p>
+          <p>
+            GitHub:
+            <a href="https://github.com/aungshuk1160" target="_blank">
+              github.com/aungshuk1160
+            </a>
+          </p>
+        </div>
+
+        <form action="https://formspree.io/f/mnjzeorq" method="POST">
+          <!-- optional form fields -->
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Aungshuk — All Rights Reserved</p>
+  </footer>
 
 </body>
 </html>
