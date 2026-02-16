@@ -1,0 +1,109 @@
+/* Base & Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 850px;
+    background: #1e293b;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Header */
+header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #94a3b8;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Description */
+.description p {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+/* Features */
+.features h2,
+.technologies h2 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.features ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 18px;
+}
+
+.features li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 16px;
+}
+
+.features li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #38bdf8;
+}
+
+/* Tech list */
+.tech-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.tech-list span {
+    background: #2563eb;
+    padding: 8px 14px;
+    border-radius: 18px;
+    font-size: 0.9rem;
+}
+
+/* Button */
+.btn-github {
+    display: inline-block;
+    margin-top: 28px;
+    background: #38bdf8;
+    color: #000;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-github:hover {
+    background: #0ea5e9;
+    transform: translateY(-3px);
+}
