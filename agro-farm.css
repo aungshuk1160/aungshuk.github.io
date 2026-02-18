@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f0f;
+    color: #ffffff;
+}
+
+.wrapper {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.back-nav {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.back-nav a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.project-card {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #bbbbbb;
+    margin-bottom: 40px;
+}
+
+/* INTERACTIVE FARM CARD */
+
+.farm-card {
+    background: linear-gradient(145deg, #1c1c1c, #111);
+    border-radius: 20px;
+    padding: 40px;
+    transition: all 0.4s ease;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    box-shadow: 0 0 0 transparent;
+}
+
+.farm-card:hover {
+    transform: rotateY(8deg) rotateX(5deg) scale(1.05);
+    box-shadow: 0 20px 60px rgba(76, 175, 80, 0.4);
+}
+
+.farm-content h2 {
+    color: #4caf50;
+    margin-bottom: 15px;
+}
+
+.farm-content p {
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+.farm-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.farm-content ul li {
+    padding: 8px 0;
+    color: #aaaaaa;
+}
+
+/* BUTTON */
+
+.buttons {
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #66bb6a;
+    box-shadow: 0 0 15px #4caf50;
+}
