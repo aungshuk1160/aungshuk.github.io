@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0d1117;
+    color: #ffffff;
+}
+
+.wrapper {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.back-nav {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.back-nav a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.project-card {
+    max-width: 800px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #bbbbbb;
+    margin-bottom: 40px;
+}
+
+/* WATER LEVEL CARD */
+
+.water-card {
+    background: linear-gradient(145deg, #1c1c1c, #111);
+    border-radius: 20px;
+    padding: 36px;
+    transition: all 0.35s ease;
+    transform-style: preserve-3d;
+    perspective: 1200px;
+}
+
+.water-card:hover {
+    transform: rotateY(7deg) rotateX(-3deg) scale(1.05);
+    box-shadow: 0 20px 60px rgba(0, 188, 212, 0.4);
+}
+
+.water-content h2 {
+    color: #00bcd4;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.water-content p {
+    color: #cccccc;
+    margin-bottom: 16px;
+}
+
+.water-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.water-content ul li {
+    padding: 7px 0;
+    color: #aaaaaa;
+}
+
+/* BUTTON */
+
+.buttons {
+    margin-top: 38px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #00bcd4;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #00d1ff;
+    box-shadow: 0 0 15px #00bcd4;
+}
